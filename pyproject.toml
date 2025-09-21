@@ -1,5 +1,5 @@
 [project]
-name = "microfactual"
+name = "microfactual-ml"
 version = "0.1.0"
 description = "A user-friendly Python framework for microbiome machine learning workflows"
 readme = "README.md"
@@ -37,13 +37,13 @@ classifiers = [
 
 dependencies = [
     "dice-ml>=0.9",
-    "matplotlib>=3.10.1",
-    "numpy>=2.2.4",
-    "pandas>=2.2.3",
-    "ruff>=0.11.6",
-    "scikit-learn>=1.6.1",
-    "scipy>=1.15.2",
-    "skore>=0.10.0",
+    "matplotlib>=3.5.0",
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "ruff>=0.1.0",
+    "scikit-learn>=1.0.0",
+    "scipy>=1.7.0",
+    "skore>=0.1.0",
 ]
 
 [dependency-groups]
@@ -51,12 +51,18 @@ dev = [
     "ipykernel>=6.29.5",
     "pytest>=8.3.5",
     "pytest-cov>=6.2.1",
+    "twine>=6.2.0",
 ]
 docs = [
     "sphinx>=8.1.3",
     "sphinx-autodoc-typehints>=3.0.1",
     "sphinx-rtd-theme>=3.0.2",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Lagyamfi/MicroFactual"
+Repository = "https://github.com/Lagyamfi/MicroFactual"
+Issues = "https://github.com/Lagyamfi/MicroFactual/issues"
 
 [project.scripts]
 microfactual = "microfactual.main:main"
