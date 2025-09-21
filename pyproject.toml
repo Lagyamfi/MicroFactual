@@ -1,5 +1,5 @@
 [project]
-name = "microfactual"
+name = "MicroFactual"
 version = "0.1.0"
 description = "A user-friendly Python framework for microbiome machine learning workflows"
 readme = "README.md"
